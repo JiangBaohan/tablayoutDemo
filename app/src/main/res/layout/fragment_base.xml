@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:id="@+id/recycler_view"
+                                        android:orientation="vertical">
+
+    <!--因为界面就显示了条目,所以处于UI优化的原因,我们的节点就用RecyclerView-->
+
+</android.support.v7.widget.RecyclerView>

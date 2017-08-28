@@ -1,0 +1,40 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="170dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="5dp"
+                                    android:elevation="5dp"
+                                    android:orientation="vertical"
+                                    app:cardCornerRadius="10dp">
+    <!--elevation 决定卡片高度,app:cardCornerRadius卡片圆角度-->
+    <!--使用CardView要导入compile 'com.android.support:cardview-v7...要使用CardView特有属性,要先写xmlns:app="http://s...方可-->
+
+    <LinearLayout
+        android:id="@+id/ll_item_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_pano"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:src="@mipmap/andes"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是标题"
+            android:textColor="#0095ff"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
